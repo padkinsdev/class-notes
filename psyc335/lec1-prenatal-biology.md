@@ -8,3 +8,12 @@
 ### Likelihood of conception
 - Sexual intercourse must be precisely timed for fertilization to be successful.
 - Sperm can only live for 5 dayswithin the uterus, and ovum die or dissolve within 12-24 hours if not fertilized.
+
+### Sexual determination
+- Sex consists of genetic sex (xx/xy), gonadal sex (testis/ovaries), and phenotypic sex.
+- In prenatal development, the presence or absence of androgens causes the development of male or female genitalia, respectively.
+- Phenotypic sex consists of primary and secondary sex characteristics, e.g. fallopian tubes, vagina, penis, breasts, etc.
+
+### Prenatal biological development
+- After fertilization, the ovum begins to divide, and cell differentiation. Selective apoptosis (cell death) also occurs.
+- Cell division occurs from head to toe, referred to as cephalocaudal development.
