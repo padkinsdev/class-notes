@@ -49,3 +49,4 @@
 - Enforcing a desired property in the presence of an attacker
 - Cryptography preserves three properties: confidentiality (content is only legible to the intended parties), integrity (content cannot be changed without alerting those involved), and authenticity (the source is verified)
 - Key questions: Security goals, Threat model, Mechanisms
+- Security fundamentally relies on making it too difficult/expensive for an attacker to succeed. In other words, raise the bar on attacker success
