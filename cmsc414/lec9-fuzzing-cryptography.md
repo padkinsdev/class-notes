@@ -35,4 +35,3 @@
 - Symmetric schemes have 3 algorithms: key generation, encryption, and decryption
 - Encryption and decryption algorithms should be fast
 - In the context of symmetric schemes, confidentiality means that regardless of what the adversary already knows (e.g. that each message starts with "Dear Bob"), they should not be able to gain *additional* knowledge. In other words, the ciphertext should not give the adversary any additonal information about the plaintext
-- 
