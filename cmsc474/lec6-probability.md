@@ -15,8 +15,20 @@
     - Likelihood P(B|A) is the probability of evidence assuming A
     - Posterior P(A|B) is the conditional probability after knowing the evidence
     - Inference is deriving unknown probability from known ones
-- Suppose that $B_1, B_2, ..., B_k$ form a partition of S: $$B_i \cap B_j = \varnothing, \cup_i B_i = S$$
-- Suppose that $Pr(B_i) \gt 0$ and $Pr(A) \gt 0$. Then $$Pr(B_i|A) = \frac{Pr(A|B_i)Pr(B_i)}{Pr(A)} =$$ $$\frac{Pr(A|B_i)Pr(B_i)}{\sum_{k}^{j=1} Pr(AB_i)} =$$ $$\frac{Pr(A|B_i)Pr(B_i)}{\sum_{k}^{j=1} Pr(B_j)Pr(A|B_j)}$$
+- Suppose that $B_1, B_2, ..., B_k$ form a partition of S: 
+```math
+B_i \cap B_j = \varnothing, \cup_i B_i = S
+```
+- Suppose that $Pr(B_i) \gt 0$ and $Pr(A) \gt 0$. Then 
+```math
+Pr(B_i|A) = \frac{Pr(A|B_i)Pr(B_i)}{Pr(A)} =
+```
+```math
+\frac{Pr(A|B_i)Pr(B_i)}{\sum_{k}^{j=1} Pr(AB_i)} =
+```
+```math
+\frac{Pr(A|B_i)Pr(B_i)}{\sum_{k}^{j=1} Pr(B_j)Pr(A|B_j)}
+```
 
 ## Random variable and distribution
 - A random variable X is a numerical outcome of a random experiment
@@ -27,11 +39,26 @@
 - The joint distribution of two random variables X and Y is the collection of possible outcomes along with the joint probability $Pr(X=x, Y=y)$
 
 ## Expectation
-- A random variable X~Pr(X=x). Then its expectation is $$E[x] = \sum_x xPr(X=x)$$
-    - In an empirical sample $x_1,x_2,...,x_N$ $$E[X] = \frac{1}{N} \sum_{i=1}^{N}x_i$$
-- Continuous case: $$E[X]=\int_{-\in}^{\in} xp_\theta(x)dx$$
+- A random variable X~Pr(X=x). Then its expectation is 
+```math
+E[x] = \sum_x xPr(X=x)
+```
+- In an empirical sample $x_1,x_2,...,x_N$ 
+    ```math
+    E[X] = \frac{1}{N} \sum_{i=1}^{N}x_i
+    ```
+- Continuous case: 
+```math
+E[X]=\int_{-\in}^{\in} xp_\theta(x)dx
+```
 - In the discrete case expectation is the average of numbers in the support weighted by their probabilities
-- Expectation of sum of random variables: $$E[X_1 + X_2] = E[X_1] + E[X_2]$$
+- Expectation of sum of random variables: 
+```math
+E[X_1 + X_2] = E[X_1] + E[X_2]
+```
 
 ## Variance
-- The variance of a random variable X is the expectation of $(X-E[X])^2$: $$Var(X) = E[X^2] - E[X]^2$$
+- The variance of a random variable X is the expectation of $(X-E[X])^2$: 
+```math
+Var(X) = E[X^2] - E[X]^2
+```
