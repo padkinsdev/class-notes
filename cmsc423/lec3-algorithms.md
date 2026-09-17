@@ -9,10 +9,22 @@
     - We want an expression for the number of islands given N, g, L, omega
 
 ## Islands
-- The probability that k reads start in an interval of length x (`Pr(k reads start in an interval of length k)`) is $e^{-\lambda*x}*\frac{(\lambda*x)^k}{k!}$
+- The probability that k reads start in an interval of length x (`Pr(k reads start in an interval of length k)`) is $`e^{-\lambda*x}*\frac{(\lambda*x)^k}{k!}`$
     - The expected number of islands is N times the Probability that a read is at the rightmost end of an island
     - `Theta*L = N * Pr(0 reads start in (1-theta)*L)`
-    - Expected # of islands $= N*e^{-(1-\theta)*L*\frac{N}{g}}$ $= N*e^{-(1-\theta)*c}$ $= \frac{L/g}{L/g}*N*e^{-(1-\theta)*c}$ $= g/L*c*e^{-(1-\theta)*c}$
+    - Expected # of islands 
+    ```math
+    = N*e^{-(1-\theta)*L*\frac{N}{g}}
+    ```
+    ```math
+    = N*e^{-(1-\theta)*c}
+    ```
+    ```math
+    = \frac{L/g}{L/g}*N*e^{-(1-\theta)*c}
+    ```
+    ```math
+    = g/L*c*e^{-(1-\theta)*c}
+    ```
 - A base is uncovered exactly when no read starts in the L positions ending at it
     - Pr(base uncovered) = $e^{-\lambda*L} = e^{-c}$ and therefore
         - Expected uncovered bases = $ge^{-c}$
