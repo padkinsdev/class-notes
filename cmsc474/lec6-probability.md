@@ -44,9 +44,9 @@ Pr(B_i|A) = \frac{Pr(A|B_i)Pr(B_i)}{Pr(A)} =
 E[x] = \sum_x xPr(X=x)
 ```
 - In an empirical sample $x_1,x_2,...,x_N$ 
-    ```math
-    E[X] = \frac{1}{N} \sum_{i=1}^{N}x_i
-    ```
+```math
+E[X] = \frac{1}{N} \sum_{i=1}^{N}x_i
+```
 - Continuous case: 
 ```math
 E[X]=\int_{-\in}^{\in} xp_\theta(x)dx
