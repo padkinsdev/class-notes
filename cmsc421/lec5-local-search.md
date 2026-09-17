@@ -5,7 +5,7 @@
 - Search tree: The node order imposed by an algorithm traversing this graph
 - Failure to detect repeated states can cause exponentially more work
 - To avoid expanding a node twice, perform a tree search with a set of expanded states, then expand the search tree node-by-node, but before expanding a node, check to make sure its state has never been expanded before. If the node is not new, skip it
-    - Store the closed set as a set data structure ($O(log*(n))$ or $\theta(\alpha(n))$), not as a list ($O(n)$ or $O(log(n))$)
+    - Store the closed set as a set data structure ($O(log*(n))$ or $`\theta(\alpha(n))`$), not as a list ($O(n)$ or $O(log(n))$)
 - Main idea: estimated heuristic costs should be less than the actual costs
     - Admissibility: heuristic cost <= actual cost from A to G
     - Consistency: heuristic "arc" cost <= actual cost for each arc

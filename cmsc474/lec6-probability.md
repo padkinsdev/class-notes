@@ -1,14 +1,20 @@
 # Probability
 
 ## Conditionals
-- If A and B are events with Pr(A) > 0 the conditional probability of B given A is $$Pr(B|A) = \frac{Pr(AB)}{Pr(A)}$$
+- If A and B are events with Pr(A) > 0 the conditional probability of B given A is 
+```math
+Pr(B|A) = \frac{Pr(AB)}{Pr(A)}
+```
 
 ### Conditional independence
 - Event A and B are conditionally independent given C if Pr(AB|C) = Pr(A|C)Pr(B|C)
 - A set of events {$A_i$} is conditionally independent if $Pr(\cap_i A_i|C) = \Pi_i Pr(A_i|C)$
 
 ### Bayes' rule
-- Given two events A and B and suppose that Pr(A) > 0. Then $$Pr(A|B) = \frac{Pr(AB)}{Pr(B)} = \frac{Pr(B|A)Pr(A)}{Pr(B)}$$
+- Given two events A and B and suppose that Pr(A) > 0. Then 
+```math
+Pr(A|B) = \frac{Pr(AB)}{Pr(B)} = \frac{Pr(B|A)Pr(A)}{Pr(B)}
+```
 - Why do we care?
     - Often P(B|A), P(A), P(B) are easier to get
     - Prior P(A) is the probability of A before evidence
@@ -49,7 +55,7 @@ E[X] = \frac{1}{N} \sum_{i=1}^{N}x_i
 ```
 - Continuous case: 
 ```math
-E[X]=\int_{-\in}^{\in} xp_\theta(x)dx
+E[X]=\int_{-\infty}^{\infty} xp_\theta(x)dx
 ```
 - In the discrete case expectation is the average of numbers in the support weighted by their probabilities
 - Expectation of sum of random variables: 
