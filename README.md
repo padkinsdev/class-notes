@@ -1,2 +1,2 @@
 # class-notes
-Class notes for various classes taken at UMD. This repo should not be publicly viewable, and if it is found to be publicly accessible, please let me know and I will take action to rectify this issue.
+Class notes for various classes taken at UMD. This repo has been made temporarily public for ease of sharing, but I would request that the content here not be shared, archived, or otherwise retrieved unless explicit permission is given. Thanks!
