@@ -37,7 +37,7 @@
     - Basically, where does S repeat itself and for how long
     - Naively computing the z-array takes time O(n^2)
     - Because S will fully match itself, the first value in the Z-array will always be the length of S
-- For $S=P\$T$, every position with Z[i]=|P| marks an occurrence of P in T
+- For $`S=P\$T`$, every position with Z[i]=|P| marks an occurrence of P in T
 - The Z-box at i is $[i, i+Z[i]-1]$. Every character in that interval matches the corresponding prefix character
 - At step k, the algorithm keeps the Z-box with the largest right endpoint R among positions already processed
     - If k lies inside [L,R], a mirrored prefix value often determines Z[k] without any character comparisons
