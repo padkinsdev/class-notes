@@ -16,3 +16,10 @@
     - Monophyletic: A group that includes a common ancestor and all of its descendants (i.e. complete and joined phylogeny)
     - Paraphyletic: A group that includes a common ancestor and some, but not all, of its descendants (i.e. partial but joined phylogeny)
     - Polyphyletic: A group that does not include the common ancestor (i.e. disjoint species representation)
+
+## Phylogeny, continued
+- Synandromorphy: Shared, derived character/trait that is new and arose from a common ancestor
+- Parsimony: The tree requiring the least evolutionary changes is usually preferred
+    - Related to Occam's razor, i.e. the simplest explanation is often the correct one
+    - Sometimes this does not produce the correct phylogeny if there is, in fact, repeated gain and loss of traits
+- Sometimes a trait matrix is used to map/track dissimilarities
