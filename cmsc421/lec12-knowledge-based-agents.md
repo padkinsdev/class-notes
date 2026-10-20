@@ -7,7 +7,7 @@
         - Syntax: Atomic sentences and connectives
         - Semantics: Truth tables
         - Inference: DPLL, GSAT, WalkSAT for model checking
-        - Complexity: NP-COmplete
+        - Complexity: NP-Complete
     - First order logic:
         - Ontology: Objects, relations, variables
         - Syntax: Connectives, quantifiers, constants, variables, predicates & relations, functions
