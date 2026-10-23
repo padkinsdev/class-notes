@@ -24,4 +24,3 @@
 - Reduced hybrid viability: Hybrid offspring do not develop or have reduced survivability
 - Hybrid infertility: Hybrids can survive but not reproduce (often due to differences in chromosome number)
 - Hybrid breakdown: First generation hybrids are reproductively viable, but second generation ones are sterile or weak
-- 
