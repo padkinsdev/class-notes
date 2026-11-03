@@ -2,13 +2,13 @@
 
 ## Independence
 - Two variables are independent if $`\forall x, y: P(x,y) = P(x)*P(y)`$
-    - Another way to write this is $`\forall x, y: \thickspace P(x | y) = P(x) \: and \: P(y | x) = P(y)`$
-    - Independence is eqpressed as $`x \perp\!\!\!\!\perp y`$
+    - Another way to write this is $`\forall x, y: \: P(x | y) = P(x) \: and \: P(y | x) = P(y)`$
+    - Independence is expressed as $`x \perp\!\!\!\!\perp y`$
 - Independence survives negation. In other words, negating x or y preserves independence
 
 ### Conditional independence
-- x is conditionally independent from y given z iff $`\forall x,y,z \thickspace (P(x | y, z) = P(x | z))`$
-    - An equivalent statement is $`\forall x,y,z \thickspace (P(x, y | z) = P(x | z)*P(y | z))`$
+- x is conditionally independent from y given z iff $`\forall x,y,z \: (P(x | y, z) = P(x | z))`$
+    - An equivalent statement is $`\forall x,y,z \: (P(x, y | z) = P(x | z)*P(y | z))`$
     - In other words, learning y does not change your determination of x if you already know z
 
 ## Probabilistic models
