@@ -6,4 +6,4 @@
 - **Fetal learning** - Fetuses learn from prenatal exposure to stimuli (sounds, smells, tastes, patterns) in the last 3 months of pregnancy
 - **Fetal programming** - Experiences during the prenatal period affect physiology during adulthood
 - Habitutation is the process of decreasing response to a repeated stimulus, e.g. a loud sound in one's periphery
-- 
+-

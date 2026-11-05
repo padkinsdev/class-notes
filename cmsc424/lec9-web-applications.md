@@ -1,6 +1,7 @@
 # Web Applications
 
 ## Introduction
+
 - Web/browser apps are the de facto standard user interface
 - **REST**: Representation State Transfer, uses standard HTTP requests to execute commands against a server and return data
 - For an API to be "RESTful", it must use regular HTTP headers and define endpoints/behavior. It must also use stateless communication and have a uniform interface
@@ -8,4 +9,5 @@
 - Many services offer access through both a REST API and GraphQL endpoint
 
 ## Django
+
 - Django is a Python framework for managing HTTP request construction/handling

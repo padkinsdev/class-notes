@@ -1,6 +1,7 @@
 # The Genetic Code
 
-# Background
+## Background
+
 - DNA consists of pairs of nucleobases attached to a sugar phosphate backbone
 - Between RNA and DNA, the nucleotides are adenine, thymine, guanine, cytosine, and uracil, with uracil replacing thymine in RNA
 - The human genome is 3 billion base pairs long

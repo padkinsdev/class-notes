@@ -1,25 +1,28 @@
 # Phylogeny
 
 ## Phylogenetic trees and cladograms
+
 - While branch lengths of phylogentic trees often indicate relative time, cladograms do not represent time
 - Trees often consist of
-    - Tips: Organisms (taxa)
-    - Branches: Connect species to ancestors
-    - Nodes: Divergence of one species into two or more
-    - Root: Hypothetical common ancestor of all organisms in the tree
+  - Tips: Organisms (taxa)
+  - Branches: Connect species to ancestors
+  - Nodes: Divergence of one species into two or more
+  - Root: Hypothetical common ancestor of all organisms in the tree
 - If a tip in a phylogenetic tree doesn't reach the end (that is, the furthest outward point of the tree's visual area), the species at that tip has gone extinct
 - For any speciation event in a phylogeny, the choice of which species goes on the right or left (if the tree is vertical, top or bottom if the tree is horizontal) is arbitrary
 - While the root of a tree designateds a hypothetical common ancestor for all species in the tree, it may not always be shown, perhaps because that common ancestor is not actually known
 
 ## Phylogenetic groupings
+
 - Three types of phylogenetic groupings are used:
-    - Monophyletic: A group that includes a common ancestor and all of its descendants (i.e. complete and joined phylogeny)
-    - Paraphyletic: A group that includes a common ancestor and some, but not all, of its descendants (i.e. partial but joined phylogeny)
-    - Polyphyletic: A group that does not include the common ancestor (i.e. disjoint species representation)
+  - Monophyletic: A group that includes a common ancestor and all of its descendants (i.e. complete and joined phylogeny)
+  - Paraphyletic: A group that includes a common ancestor and some, but not all, of its descendants (i.e. partial but joined phylogeny)
+  - Polyphyletic: A group that does not include the common ancestor (i.e. disjoint species representation)
 
 ## Phylogeny, continued
+
 - Synandromorphy: Shared, derived character/trait that is new and arose from a common ancestor
 - Parsimony: The tree requiring the least evolutionary changes is usually preferred
-    - Related to Occam's razor, i.e. the simplest explanation is often the correct one
-    - Sometimes this does not produce the correct phylogeny if there is, in fact, repeated gain and loss of traits
+  - Related to Occam's razor, i.e. the simplest explanation is often the correct one
+  - Sometimes this does not produce the correct phylogeny if there is, in fact, repeated gain and loss of traits
 - Sometimes a trait matrix is used to map/track dissimilarities

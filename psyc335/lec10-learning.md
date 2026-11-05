@@ -1,6 +1,7 @@
 # Learning
 
 ## Types of learning
+
 * **Habituation**: A decrease in response to a repeated stimulus
 * **Perceptual learning**: Using perceptual abilities to search for order and regularity in the world around oneself. Involves differentiation
 * **Statistical learning**: Forming associations among stimuli that occur in a statistically *predictable* pattern
@@ -12,11 +13,13 @@
 ## Paradigms
 
 ### **Violation of expectancy paradigms**
+
 * Key to evaluating cognitive capacities when language is uderdeveloped
 * Infants are shown an event that should evoke interest by violating something that the infant knows to be true
 * Useful for assessing rational learning and core knowledge theories
 
 ## Memory
+
 * Long-term memory consists of implicit and explicit memory
 * Explicit memeory consists of episodic and semantic memory
 * Implicit memory consists of emotional encoding and procedural memory

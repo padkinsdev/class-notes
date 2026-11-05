@@ -1,6 +1,7 @@
 # Risk and Resilience
 
 ### Resilience
+
 - Resilience is the ability of a dynamic system ro adapt successfully to disturbances/disruptions
 - Key factors: disturbances (risk factors) and adaptation (positive outcomes)
 - Developmental stage and cultural context impact relevant/expected outcomes
@@ -22,7 +23,7 @@
 - Resilience factors can be promotive or protective. Protective factors show an increasing factor at higher levels of risk. Promotive factors promote adaptation at all levels of risk
 - Some factors can be both promotive and protective, depending on whether the relationship is statistically significant
 - Diathesis-stree interaction: Some individuals are more vulnerable to the negative impacts of adverse experiences
-    * E.g. phenylketonuria (inability to metabolize phenylalanine)
+  - E.g. phenylketonuria (inability to metabolize phenylalanine)
 - Vantage-sensitivity interactions: Some individuals reap more benefits from positive environmental experiences
 - Differential susceptibility interactions: SOme individuals who are vulnerable to negative might *also* reap more benefits from promotive esperiences. In other words, more to lose but more to gain. Could be moderated by stress responses, reward processing, neuroticism, extraversion, etc.
 - Socioeconomic resources include income, education, and occupation

@@ -1,12 +1,14 @@
 # Query Languages
 
 ### Relational algebra symbols
+
 - sigma: selection operator equivalent of SQL `select * where` clause
 - pi: projection operator which is equvalent to SQL `select * from` clause
 - union, intersection, difference: input 2 collections, output one collection
 - cartesian product (x): join two colloections
 
 ### Basic SQL/Spark query structure
+
 - `select` A1, A2, A3, ... `from` r1, r2, r3, ... `where` P
 - Apache Spark uses a "map" operation. No explicit schema is given, so code must be provided, e.g. `l.map(lambda line: re.match(r'^(\S+)', line).group(1))`
 - SQL allows duplicates by default (must be specified otherwise via `select distinct...`), but relational algebra implies no duplicates

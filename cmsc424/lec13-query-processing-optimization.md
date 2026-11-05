@@ -1,6 +1,7 @@
 # Query Processing and Optimization
 
 ## Introduction
+
 - Each operator implements three functions: open(), next(), close()
 - Systems like PostgreSQL use demand-driven pipelining with the "iterator" model
 - The system (e.g. PostgreSQL) asks the operating system for a large chunk of memory, then builds a query plan

@@ -2,6 +2,7 @@
 
 <!-- All of my stuff in my bag is soaked and I was late for class so these notes are incomplete -->
 ## Introduction
+
 - B+ trees group similar entries in a table by the values that they share, with entries having a common value in one column being leaves (or interior nodes if not a full entry) of their common value
 - E.g. if two rows share the value "Mozart" in the teacher column, they will be leaves of the "Mozart" inner node
 - B+ trees are balanced, meaning that they automatically adjust to data insertions
@@ -10,6 +11,7 @@
 - Nowadays log-structured merge trees are used instead
 
 ## Log-structured merge (LSM) trees
+
 - SSDs don't like small writes, insteadd preferrring large block writes
 - LSMs are very commonly used nowadays, e.g. in RocksDB, Cassandra, LevelDB, etc.
 - LSMs are held in memory as SSTables (sorted string tables) and have an overhead index for in-memory searches. The index is not persisted to disk

@@ -1,6 +1,7 @@
 # Storage and Indexes
 
 ## Computing structure
+
 - Computing hardware -> storage organization -> B+-tree indexes -> hash indexes -> log-structured merge (LSM) trees
 - Computing hardware consists of components that are resistant to power failure, such as hard drives, disks, tapes, etc.
 - Magnetic or hard disks are the primary long term storage mechanism
