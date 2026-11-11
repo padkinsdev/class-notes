@@ -20,7 +20,9 @@
 - Work proceeds one column at a time
   - If you have, say, 4 unknown boxes, choose states for the four boxes to minimise the number of edges whose two ends differ
 
-### Fitch's algorithm
+### Parsimony
+
+#### Fitch's algorithm
 
 - Phase 1: Post order traversal of the tree (leaves up)
   - Fill in each internal node with a set of candidate states that might be selected for that node
@@ -30,7 +32,7 @@
   - Phase 1: The cost is equal to the number of unions
   - Phase 2, per column: $`O(n|\sigma|)`$ time for n leaves, $`O(nk|\sigma|)`$ for k columns
 
-### Sankoff's algorithm
+#### Sankoff's algorithm
 
 - Used when transitions have different costs
 - This is also a two-phase algorithm with an up phase and a down phase
@@ -42,3 +44,16 @@
   - Child v of a node u already set to $`u^*`$: $`v^* = argmin_b[c(u^*,b)+S_v(b)]`$
   - Store the argmin per (edge, state) in pahse 1 to make phase 2 O(n)
   - Several labels can be simultaneously optimal (tie)
+
+### Likelihood
+
+- What is the most likely state of the internal nodes of the tree?
+- Parsimony counts changes but ignores branch lengths. A change on a long branch is far more likely tha on a short oe
+- Parsimony also igores multiple hits. A -> G -> A on one branch looks like no change
+- Likelihood instead produces a probabilistic model of how a site changes along a branch and asks which ancestral states make the data most probable
+  - The standard approach is to assume that sites evolve independently along each branch as a continuous-time Markov chain on {A, C, G, T}
+
+#### Jukes-Cantor model
+
+- The proability of transitioning from a given state to any other is $`\alpha`$ (which is a rate, not a probability)
+  - As b grows, every base becomes equally likely, ad the sequence forgets where it started
